@@ -1,0 +1,133 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    width: 100vw;
+    /* border: solid 3px red; */
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    /* border: solid 3px blue; */
+    /* width: 100vw; */
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.header-left, .header-right {
+    display: flex;
+    /* border: solid 3px green; */
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-right ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* border: dotted 3px magenta; */
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-left, .hero-right {
+    display: flex;
+    width: 460px;
+    flex-wrap: nowrap;
+    padding-left: 50px;
+}
+
+.hero-left {
+    flex-direction: column;
+    /* border: dashed 3px gold; */
+    gap: 16px;
+    /* padding-left: 140px; */
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext, a, button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-subtext {
+    width: 300px;
+}
+
+.hero-right {
+    justify-content: center;
+    align-items: center;
+    
+    /* border: dashed 3px greenyellow; */
+}
+
+button {
+    display: flex;
+    background-color: #3882f6;
+    width: 100px;
+    padding: 8px;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+}
+
+#cat {
+    width: 200px;
+}
+
+.info {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-img {
+    width: 200px;
+    border: solid 3px #3882f6;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+}
